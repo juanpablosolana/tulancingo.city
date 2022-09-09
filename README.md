@@ -1,34 +1,86 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Tulancingo.city
 
-## Getting Started
+_Repo del proyecto tulancingo.city_
 
-First, run the development server:
+## Comenzando 🚀
 
-```bash
-npm run dev
-# or
-yarn dev
+_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+
+Mira **Deployment** para conocer como desplegar el proyecto.
+
+
+### Pre-requisitos 📋
+
+_Que cosas necesitas para instalar el software y como instalarlas_
+
+_Node instalado y clona el repositorio_
+
+```
+git clone git@github.com:juanpablosolana/tulancingo.city.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Instalación 🔧
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+_Dí cómo será ese paso_
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```
+npm install
+```
 
-## Learn More
+_Corre el entorno de desarrollo_
 
-To learn more about Next.js, take a look at the following resources:
+```
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Ejecutando las pruebas ⚙️
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+_Utilizamos Cypress para ejecutar las pruebas_
 
-## Deploy on Vercel
+### Analice las pruebas end-to-end 🔩
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+_El script se corre de la siguiente manera_
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```
+npm run test
+```
+
+## Despliegue 📦
+
+_El entorno de pruebas lo encuentras en la rama de develop vinculado a develop.tulancingo.city_
+
+## Construido con 🛠️
+
+_Acá las herramientas que utilizaste para crear tu proyecto_
+
+* [Next JS](https://nextjs.org) - El framework web usado
+* [Tailwind](https://tailwindcss.com) - Para los estilos
+* [Cypress](https://www.cypress.io) - Usado para generar test
+
+## Contribuyendo 🖇️
+
+Si te gustaría contribuir realiza tu PR a la rama develop
+## Wiki 📖
+
+Pronto tendremos una wiki con más información
+## Versionado 📌
+
+Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/juanpablosolana/tulancingo.city/tags).
+
+## Autores ✒️
+
+_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
+
+* **Pablo Solana** - *Trabajo Inicial* - [web](https://pablosolana.dev)
+
+También puedes mirar la lista de todos los [contribuyentes](https://github.com/juanpablosolana/tulancingo.city/contributors) quíenes han participado en este proyecto.
+
+## Expresiones de Gratitud 🎁
+
+* Comenta a otros sobre este proyecto 📢
+* Invita una cerveza 🍺 o un café ☕ a alguien del equipo.
+* Da las gracias públicamente 🤓.
+---
+⌨️ con ❤️ por [Pablo Solana](https://pablosolana.dev) 😊
