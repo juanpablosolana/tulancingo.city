@@ -1,6 +1,5 @@
 const axios = require("axios");
 
-
 const options = {
   method: 'GET',
   url: 'https://visual-crossing-weather.p.rapidapi.com/forecast',
@@ -17,8 +16,10 @@ const options = {
   }
 };
 
-axios.request(options).then(function (response) {
-  console.log(response.data);
+const weaterData = axios.request(options).then(function (response) {
+  return response.data.locations["Tulancingo,HGO,MX"].currentConditions;
 }).catch(function (error) {
   console.error(error);
 });
+
+export default weaterData
