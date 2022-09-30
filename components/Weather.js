@@ -1,19 +1,17 @@
 import { useEffect, useState } from "react"
 import weaterData from "../services/openweathermap"
 
-const Weater = () =>{
+const Weater = () => {
   const [weater, setWeater] = useState('')
 
   useEffect(() => {
-    weaterData.then(({temp}) => {
+    weaterData.then(({ temp }) => {
       setWeater(temp)
     })
   }, [])
 
   return (
-    <>
-      {weater}
-    </>
+    <label>El clima en tulancingo es de <span>{weater}</span> grados </label>
   )
 }
 
